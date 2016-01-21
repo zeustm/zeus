@@ -51,10 +51,47 @@ if msg.text == "ZAC" then
 	return "bokonesham hame midunan"
 end
 if msg.text == "zac" then
-	return "kos namosesh?"
+	return "kos namosesh"
 end
 if msg.text == "Bye" then
 	return "Babay"
+end
+if msg.text == "Help" then
+	return "ليست ابزارهاي هل بات:
+______________________________
+1> Add_Bot
+2> Auto_Leave
+3> Calculator
+4> Chat
+5> Dictionary
+6> Echo
+7> Feedback
+8> Get
+9> GPS
+10> Google
+11> Google_Image
+12> GroupManager
+13> Group_Link
+14> Hello
+15> Help
+16> ID
+17> Info
+18> Invite
+19> Kickall
+20> MemberManager
+21> Moderation
+22> Robot
+23> Set
+24> Time
+25> Web_Shot
+26> anti_spam
+27> plugins
+28> txt2img
+______________________________
+نمايش ليست دستورات با ارسال 
+براي آشنايي با ربات از ver استفاده کنيد
+Master Admin: @Shahabambesik 
+Channel: @Shahabsafteam"
 end
 if msg.text == "bye" then
 	return "Bye Bye"
@@ -72,6 +109,7 @@ return {
 		"^[Bb]ot$",
 		"^[Hh]ell$",
                 "^HELL$",
+                "^Help$",
                 "^ZAC$",
                 "^[Zz]ac$",
 		"^[Bb]ye$",
