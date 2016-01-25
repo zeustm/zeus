@@ -223,7 +223,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {119989724,},--Sudo users
+    sudo_users = {119989724,175531746,174665816,37194141,] --Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[The Anti Spammer Zeus V2
