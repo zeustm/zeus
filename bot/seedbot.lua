@@ -205,17 +205,20 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
+    "calculator",
+    "chat",
+    "robot",
+    "auto_leave",
+    "plugins",
     "inrealm",
     "ingroup",
     "inpm",
-    "membermanager",
-    "chat",
+    "banhammer",
     "stats",
     "anti_spam",
     "owners",
     "arabic_lock",
     "set",
-    "plugins",
     "get",
     "broadcast",
     "download_media",
@@ -223,23 +226,15 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {119989724,175531746,174665816,37194141,]--Sudo users
+    sudo_users = {175531746,174665816,37194141,119989724,},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[The Anti Spammer Zeus V2
+    about_text = [[Teleseed v2 - Open Source
+An advance Administration bot based on yagop/telegram-bot 
 
-مديران ربات:
-@Larnog
-@Ananymous0
-@Redteam_02_00
-
-تشکر ويژه از:
-@Blackwolf_admin
-@Amincmp
-
-خبرنامه ربات:
-@Zeus_ch
-Source By : @Shahabambesik
+https://github.com/SEEDTEAM/TeleSeed
+Admins
+@Shahabambesik [Developer]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -358,6 +353,10 @@ Group rules
 return group id or user id
 
 !help
+
+!bot on
+!bot off
+On and off bot in youre group
 
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
