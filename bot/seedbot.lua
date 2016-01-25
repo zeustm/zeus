@@ -226,26 +226,20 @@ function create_config( )
     sudo_users = {119989724,},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[The Anti Spammer Zeus V2
 
-https://github.com/SEEDTEAM/TeleSeed
+مديران ربات:
+@Larnog
+@Ananymous0
+@Redteam_02_00
 
-Admins
-@Shahabambesik [Founder]
-@imandaneshi [Developer]
-@Shahabambesik [Developer]
-@AmirSasan1998 [Manager]
+تشکر ويژه از:
+@Blackwolf_admin
+@Amincmp
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+خبرنامه ربات:
+@Zeus_ch
+Source By : @Shahabambesik
 ]],
     help_text_realm = [[
 Realm Commands:
