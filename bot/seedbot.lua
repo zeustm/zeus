@@ -241,7 +241,7 @@ function create_config( )
 @Ananymous0
 @Redteam_02_00
 
-  تشکر ویژه از:
+  تشکر ويژه از:
 Blackwolf_admin
 Amincmp  
 
