@@ -230,7 +230,8 @@ function create_config( )
     "all",
     "leave_ban",
     "antilink",
-    "admin"
+    "admin",
+    "linkpv"
     },
     sudo_users = {37194141,174665816,175531746,},--Sudo users
     disabled_channels = {},
